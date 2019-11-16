@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 .clearfix::after {
@@ -12,7 +11,11 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+  background-image: linear-gradient(
+      rgba(62, 20, 20, 0.4),
+      rgba(62, 20, 20, 0.4)
+    ),
+    url(back.jpg);
   background-size: cover;
   background-position: center;
   font-family: Lato;
@@ -41,11 +44,9 @@ body {
   padding: 100px;
 }
 
-
-
-/**********************************************
+/******
 *** PLAYERS
-**********************************************/
+******/
 
 .player-name {
   font-size: 40px;
@@ -62,7 +63,7 @@ body {
   text-align: center;
   font-size: 80px;
   font-weight: 100;
-  color: #EB4D4D;
+  color: #eb4d4d;
   margin-bottom: 130px;
 }
 
@@ -78,14 +79,13 @@ body {
   content: "\2022";
   font-size: 47px;
   position: absolute;
-  color: #EB4D4D;
+  color: #eb4d4d;
   top: -7px;
   right: 10px;
-
 }
 
 .player-current-box {
-  background-color: #EB4D4D;
+  background-color: #eb4d4d;
   color: #fff;
   width: 40%;
   margin: 0 auto;
@@ -133,7 +133,7 @@ button:focus {
 }
 
 i {
-  color: #EB4D4D;
+  color: #eb4d4d;
   display: inline-block;
   margin-right: 15px;
   font-size: 32px;
@@ -161,7 +161,7 @@ i {
   top: 178px;
   transform: translateX(-50%);
   height: 100px;
-  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1);
 }
 
 .winner {
@@ -170,5 +170,5 @@ i {
 
 .winner .player-name {
   font-weight: 300;
-  color: #EB4D4D;
+  color: #eb4d4d;
 }
